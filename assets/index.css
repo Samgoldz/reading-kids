@@ -18,6 +18,36 @@ h1, h2 {
 }
 
 #logo {
-    float: left;
+    text-align: center;
     font-size: 250%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 4px;
+    float: left;
+}
+
+#menu li {
+    list-style-type: none;
+    margin: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: #ffa500;
+}
+
+.active {
+    border-bottom: 1px solid #696969;
 }
