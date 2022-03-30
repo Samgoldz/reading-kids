@@ -62,6 +62,7 @@ header a {
 #outer-section {
     height: 600px;
     width: 100%;
+    overflow: hidden;
     position: relative;
 }
 
@@ -78,6 +79,18 @@ header a {
     width: 100%;
     padding: 0;
 
+    animation-name: zoom-image;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes zoom-image {
+      from {
+          transform: scale(1);
+      }
+      to {
+          transform: scale(1.1);
+      }
   }
 
 #main-text {
@@ -110,4 +123,27 @@ header a {
     position: absolute;
 }
 
+#essence {
+    height: 600px;
+}
+
+#left {
+    padding: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+}
+
+#right {
+    padding: 30px;
+    width: 33%;
+    float: right;
+    background-color: black;
+}
+
+#center {
+    width: 33%;
+    margin: 0 auto;
+    background-color: red;
+}
 
