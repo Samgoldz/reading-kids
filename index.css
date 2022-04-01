@@ -222,3 +222,24 @@ fieldset {
     background-color: rgba(168, 117, 117, .6);
     color: yellow;
 }
+
+/* footer */
+
+footer {
+    height: 110px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links > li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 170%;
+    color: #696969;
+    margin: 1%;
+    padding: 5%;
+}
