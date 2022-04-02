@@ -18,7 +18,7 @@
         </a>
         
     </header>
-    <section id="outer-section2">
+    <section id="form-section">
         <div id="nav2">
             <nav>
                 <ul id="menu">
@@ -26,23 +26,34 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="pictures.html" class="active">Pictures</a>
+                        <a href="pictures.html">Pictures</a>
                     </li>                
                     <li>
-                        <a href="join.html">Join Us</a>
+                        <a href="join.html" class="active">Join Us</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        <section id="pictures">
-            <img src="assets/images/boy-reading.jpg" alt="one boy reading a book">
-            <img src="assets/images/group-reading.jpg" alt="two adults and two kids sitting and reading at a library">
-            <img src="assets/images/kid-library.jpg" alt="girl reading a book">
-            <img src="assets/images/kids-reading.jpg" alt="an adult reading a book for a group of kids">
-            <img src="assets/images/letters.jpg" alt="colorful english letters">
-            <img src="assets/images/two-girls-reading.jpg" alt="two girls sitting and reading together">
-            <img src="assets/images/session.jpg" alt="an adult helping a boy with reading a book">
-        </section>
+        <div id="form">
+            <form action="http://formdump.codeinstitute.net/" method="post" class="joinform">
+                <h2>When would you like to join our sessions?</h2>
+                <label for="fname">First Name</label>
+                <input class="text-input" type="text" id="fname" name="first_name" required>
+                <label for="lname">Last Name</label>
+                <input class="text-input" type="text" id="lname" name="last_name" required>
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+                <label for="week">Choose Week</label>
+                <input type="week" name="Week_number" id="week" required>
+                <label for="monday">Monday</label>
+                <input type="checkbox" name="monday" id="day">
+                <label for="wednesday">Wednesday</label>
+                <input type="checkbox" name="day" id="wednesday">
+                <label for="saturday">Saturday</label>
+                <input type="checkbox" name="day" id="saturday">
+                <input type="submit" value="Let's Read !">
+            </form>
+        </div>
     </section>
     <footer>
        <ul class="social-links"> 

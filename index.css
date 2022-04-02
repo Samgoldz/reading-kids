@@ -327,6 +327,10 @@ footer {
         right: 80px;
     }  
 
+    #essenc {
+        margin: 0 auto;
+    }
+
     .essence-div {
     
         line-height: 15px;
@@ -371,7 +375,6 @@ footer {
     #outer-section2 {
         display: block;
         padding: 5px;
-        /* margin-bottom: 30px; */
     }
 
     .social-links i {
@@ -401,33 +404,19 @@ footer {
         font-size: 140%;
     }
 
-    #session-section {
+    #session-section > div {
         width: 100%;
+        clear: both;
         height: auto;
-        padding: 15px;
-    }
-    
-    #session {
-        width: 100%;
-    }
-    
-    #table {
-        width: 100%;
+        padding: 0;
     }
     
     fieldset {
         border: 1px solid brown;
     }
     
-    #join-us {
-        width: 100%;
-        clear: both;
-        padding-top: 4px;
-        float: none;
-    }
-    
     #join-us a {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .essence-div {
@@ -478,7 +467,7 @@ footer {
     }
 
     fieldset {
-        font-size: 90%;
+        font-size: 95%;
     }
 
     #why {
