@@ -42,7 +42,6 @@ header a {
 #menu {
     font-size: 215%;
     letter-spacing: 4px;
-    margin-top: 150px;
     float: left;
 }
 
@@ -149,20 +148,13 @@ hr {
 
 }
 
-#essence p {
-    color: #696969;
-    text-align: center;
-    font-family: nunito, sans-serif;
-    font-size: 120%;
-}
-
 .essence-div {
     
     line-height: 20px;
     clear: both;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
-    font-size: 120%;
+    font-size: 125%;
 }
 
 #why {
@@ -184,7 +176,7 @@ hr {
     width: 100%;
     height: 110px;
     background-color: bisque;
-    margin-top: 35px;
+    margin-top: 20px;
     padding: 30px;
 }
 
@@ -227,6 +219,7 @@ fieldset {
 
 footer {
     height: 110px;
+    margin-bottom: 0;
 }
 
 .social-links {
@@ -246,7 +239,7 @@ footer {
 
 /* pictures */
 
-/* #outer-section2 has width auto */
+/* #outer-section2 height auto */
 #outer-section2 {
     height: auto;
     padding: 35px;
@@ -254,8 +247,6 @@ footer {
     overflow: hidden;
     background-color: rgba(208, 134, 180, 0.2)
 }
-
-
 
 #pictures {
     line-height: 0;
@@ -269,12 +260,248 @@ footer {
     width: 100%;
 }
 
+/* nav2 position: fixed; */
 #nav2 {
     width: 20%;
     height: 250px;
 
-    top: 100px;
+    top: 80px;
     left: 30px;
 
     position: fixed;
+}
+
+/* media queries */
+
+@media screen and (max-width: 1150px) {
+    #nav2 {
+        top: 70px;
+        left: 15px;
+    }
+
+    #menu {
+        font-size: 180%;
+        letter-spacing: 2px;
+    }
+    
+    #menu li {
+        margin: 15px;
+    }
+
+    footer {
+        height: 80px;
+    }
+
+    #why {
+        font-size: 200%;
+        margin: 30px 0;
+    }
+
+    .essence-div {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #nav2 {
+        left: 5px;
+    }
+
+    #menu {
+        font-size: 130%;
+    }
+
+    #menu li {
+        margin: 5px;
+    }
+
+    #main-text {
+        font-size: 100%;
+    
+        width: 200px;
+        height: auto;
+    
+        padding-top: 15px;
+    
+        bottom: 40px;
+        right: 80px;
+    }  
+
+    .essence-div {
+    
+        line-height: 15px;
+        clear: both;
+        font-size: 105%;
+    }
+
+    #pictures {
+        column-count: 2;
+    }
+
+    .social-links i {
+        font-size: 140%;
+    }
+
+    #logo {
+        font-size: 230%;
+    }
+
+    #why {
+        font-size: 180%;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #pictures {
+        width: 100%;
+        column-count: 1;
+        top: 110px;
+        clear: both;
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    #nav2 {
+        top: 5px;
+        left: 30px;
+        position: absolute;
+    }
+
+    #outer-section2 {
+        display: block;
+        padding: 5px;
+        /* margin-bottom: 30px; */
+    }
+
+    .social-links i {
+        font-size: 110%;
+    }
+
+    footer {
+        height: 70px;
+    }
+
+    #logo {
+        font-size: 180%;
+    }
+
+    #why {
+        font-size: 150%;
+        margin: 10px 0;
+    }
+
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #logo {
+        font-size: 140%;
+    }
+
+    #session-section {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    
+    #session {
+        width: 100%;
+    }
+    
+    #table {
+        width: 100%;
+    }
+    
+    fieldset {
+        border: 1px solid brown;
+    }
+    
+    #join-us {
+        width: 100%;
+        clear: both;
+        padding-top: 4px;
+        float: none;
+    }
+    
+    #join-us a {
+        font-size: 40px;
+    }
+
+    .essence-div {
+    
+        line-height: 15px;
+        clear: both;
+        font-size: 100%;
+    }
+
+    #essence {
+        margin-bottom: 20px;
+        height: auto;
+    } 
+
+    #upper {
+        height: auto;
+    }
+
+    #under {
+        height: auto;
+    }
+
+    #main-text {
+    
+        width: 250px;
+    
+       
+    
+        bottom: 30px;
+        right: 40px;
+    }
+}
+
+@media screen and (max-width: 290px) {
+    #logo {
+        font-size: 110%;
+    }
+
+    #main-text {
+        width: 160px;
+        right: 20px;
+        padding-top: 10px;
+        font-size: 85%;
+    }
+
+    .social-links i {
+        font-size: 90%;
+    }
+
+    fieldset {
+        font-size: 90%;
+    }
+
+    #why {
+        font-size: 125%;
+    }
+}
+
+@media screen and (max-width: 345px) {
+    .essence-div > h2 {
+        font-size: 110%;
+    }
+
+    #join-us a {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 210px) {
+    fieldset {
+        font-size: 65%;
+    }
+    
+    #join-us a {
+        font-size: 25px;
+    }
 }
