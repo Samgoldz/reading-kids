@@ -31,7 +31,7 @@ header a {
 
 #nav {
     width: 20%;
-    height: 250px;
+    height: 170px;
 
     top: 100px;
     left: 30px;
@@ -263,7 +263,7 @@ footer {
 /* nav2 position: fixed; */
 #nav2 {
     width: 20%;
-    height: 250px;
+    height: 170px;
 
     top: 80px;
     left: 30px;
@@ -327,7 +327,7 @@ footer {
         right: 80px;
     }  
 
-    #essenc {
+    #essence {
         margin: 0 auto;
     }
 
@@ -493,4 +493,83 @@ footer {
     #join-us a {
         font-size: 25px;
     }
+}
+
+#form-section {
+    height: 500px;
+    width: 100%;
+    background: url('assets/images/background-image.jpg') no-repeat center center;
+}
+
+.joinform {
+    width: 400px;
+    color: whitesmoke;
+    background-color: rgba(41, 36, 36, .6);
+    margin-top: 35px;
+    margin-right: 15px;
+    float: right;
+    padding: 25px;
+}
+
+.joinform h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+#day {
+    margin-top: 15px;
+}
+
+.text-input {
+    background: transparent;
+    color: white;
+    width: 100%;
+    height: 20px;
+    margin: 5px 0 20px 0;
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: greenyellow;
+}
+
+.join-button {
+    margin-top: 15px;
+    border-radius: 3px;
+    padding: 15px 30px 15px 30px;
+    display: block;
+    text-align: center;
+    background-color: #45942e;
+    color: whitesmoke;
+    font-size: 110%;
+}
+
+.join-button:hover {
+    background-color: rgba(168, 117, 117, .6);
+    color: yellow;
+    font-size: 130%;
+    border: 1px solid yellow;
+    padding: 12px 25px 12px 25px;
+}
+
+@media screen and (max-width: 590px) {
+    #form-section {
+        height: 700px;
+    }
+
+    #joinformsection {
+        width: 100%;
+        position: relative;
+        top: 170px;
+    }
+
+    .joinform {
+        width: 95%;
+        margin: 0 auto;
+        padding: 5px 5px;
+        margin-top: 15px;
+        float: none;
+    }
+
 }
