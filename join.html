@@ -35,7 +35,7 @@
             </nav>
         </div>
         <section id="joinformsection">
-            <form action="http://formdump.codeinstitute.net/" method="post" class="joinform">
+            <form action="http://formdump.codeinstitute.net/" method="POST" class="joinform">
                 <h2>When would you like to join our sessions?</h2>
                 <label for="fname">First Name</label>
                 <input class="text-input" type="text" id="fname" name="first_name" required>
@@ -47,11 +47,11 @@
                 <input type="week" name="Week_number" id="week" required>
                 <br>
                 <label for="monday">Monday</label>
-                <input type="checkbox" name="day" id="monday">
+                <input type="checkbox" name="day" id="monday" value="monday">
                 <label for="wednesday">Wednesday</label>
-                <input type="checkbox" name="day" id="wednesday">
+                <input type="checkbox" name="day" id="wednesday" value="wednesday">
                 <label for="saturday">Saturday</label>
-                <input type="checkbox" name="day" id="saturday">
+                <input type="checkbox" name="day" id="saturday" value="saturday">
                 <input class="join-button" type="submit" value="Let's Read !">
             </form>
         </section>
