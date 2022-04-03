@@ -1,108 +1,153 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+The Kids Reading website is a webpage where parents can find information about reading sessions for their kids. Kids Reading offers reading sessions for kids in order to improve their knowledge and reading levels.
 
-Welcome Samgoldz,
+Parents who use this website can find information about benefits of reading for kids, session times, social links, pictures of kids attending our reading sessions and a form to join us. This site is for parents looking forward to imroving their kids skills.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![responsive-check](https://user-images.githubusercontent.com/99958001/161400180-07b2262c-7cdb-46ea-873d-3e629c5c3aab.jpeg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h1>Features</h1>
+<ul>
+  <li><h4>Navigaion Bar</h4>
+    <ul>
+      <li>The header which contains the logo navigation KIDS READING is located at the top of all pages and it links to the home page.</li>
+      <li>The other navigation links are located on the left of all pages: Home, Pictures and Join Us which link to different pages.</li>
+      <li>The navigation is in a color that contrasts with the background.</li>
+      <li>The navigaions are user-friendly and make it easy for the user to navigate and find information on the website.</li>
+      <li>All navigation links open in new tabs in order to avoid using the back button on the browser.</li>
+    </ul>
+  </li>
+</ul>
 
-## Gitpod Reminders
+<ul>
+  <li><h4>Then Main Image Section</h4>
+    <ul>
+      <li>The main image section contains three navigaion links: HOME, PICTURES AND JOIN US.</li>
+      <li>The main text is located within the main image section encouraging parents to join reading sessions.</li>
+      <li>Visitors of this site will immediately grasp the concept of the website by reading the main text in this section.</li>
+    </ul>
+  </li>
+</ul>
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![main-image](https://user-images.githubusercontent.com/99958001/161402399-dce234d4-2c4c-4a1b-89d9-0f6afcea657e.jpeg)
 
-`python3 -m http.server`
+<ul>
+  <li><h4>The Session Time Section</h4>
+    <ul>
+      <li>This section provides users with the weekly reading sessions times. Parents can see which times are the reading sessions held in order to determine which days are suitable for them to join.</li>
+      <li>The weekly reading session times section contains a Join Us button which is a navigaion link to the Join Us page. Users will find it easier to navigate directly to the Join Us page after checking the times instead of scrolling up the main navigation bar.</li>
+    </ul>
+  </li>
+</ul>
 
-A blue button should appear to click: _Make Public_,
+![weeklySession](https://user-images.githubusercontent.com/99958001/161403690-bd8b82c6-2ddd-427d-944b-b1d1d0aff0af.jpeg)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<ul>
+  <li><h4>The Benefits of Kids Reading Section</h4>
+    <ul>
+      <li>The benefits of kids reading section provides web visitors with information about some of the benefits that kids gain by reading books.</li>
+    </ul>
+  </li>
+</ul>
 
-A blue button should appear to click: _Make Public_,
+![benefits](https://user-images.githubusercontent.com/99958001/161402807-8db211f5-9fce-4575-bbde-9ac522142c7e.jpeg)
 
-Another blue button should appear to click: _Open Browser_.
+<ul>
+  <li><h4>The Pictures Page</h4>
+    <ul>
+      <li>Users can navigate to the pictures page by clicking on the navigation link PICTURES in the home page.</li>
+      <li>The pictures page contains a header KIDS READING, seven images, a side navigation bar with navigation links and a footer containing socail media links for contacts.</li>
+    </ul>
+  </li>
+</ul>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![Pictures](https://user-images.githubusercontent.com/99958001/161403196-86de8390-b15a-403d-8339-70bf1fbcb285.jpeg)
 
-To log into the Heroku toolbelt CLI:
+<ul>
+  <li><h4>The Social Links Section</h4>
+    <ul>
+      <li>In this section, users can click on social media icons facebook, twitter, youtube and instagram in order to make contact with Kids Readings.</li>
+      <li>The social media links open in new tabs so that users avoid using back button on the browser.</li>
+      <li>The social media icons are in a color that contrasts with the background color.</li>
+      <li>This section is located at the bottom of all website pages.</li>
+    </ul>
+  </li>
+</ul>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![sociallinks](https://user-images.githubusercontent.com/99958001/161404125-e983dc5d-94ba-4170-b736-387a7790cf81.jpeg)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<ul>
+  <li><h4>The Join Us Page</h4>
+    <ul>
+      <li>The join us page contains a header KIDS READING, navigaion bar HOME, PICTURES and JOIN US, social   media links and the main content which is a form to register to the reading sessions.</li>
+      <li>This form allows parents to sign up their kids in order to join the reading sessions</li>
+      <li>The form collects the first name, last name, email address, selection of week number and day or days of sessions.</li>
+      <li>The join us form is important to both the users and Kids Reading as it helps the users to sign up to join the reading sessions smoothly and without any complications.</li> 
+    </ul>
+  </li>
+</ul>
 
-------
+![formpage](https://user-images.githubusercontent.com/99958001/161404712-a729ff75-8306-4a9f-8ec8-c07bb9c8c48e.jpeg)
 
-## Release History
+<h1>Testing</h1>
+<ul>
+  <li>I checked that the website works in different browsers: Firefox, Microsoft Edge, Chrome.</li>
+  <li>I confirmed that the header, navigations, main text, benefits of reading, session times and join us form are all readable and easy to understand.</li>
+  <li>I checked and confirmed that the form works properly: will on accept an email in the email field, requires data entries in all fields.</li>
+  <li>I checked that the website is responsive in all standard screen sizes using the devtools toolbar.</li>
+</ul>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<h1>Bugs</h1>
+<h4>Solved bugs</h4>
+<ul>
+  <li>After deploying my project to GitHub, I found out that the Join Us button in the session times section didn't work.</li>
+  <li>After searching for possible reasons, I suspected that it might be because of cache files.</li>
+  <li>I cleared the cache files in the browser and made git push again so the deployed site was updated and the Join Us button worked properly.</li>
+</ul>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+<h1>Validator Testing</h1>
+<ul>
+  <li>HTML
+    <ul>
+      <li>Ran a check through the official W3C validator</li>
+      <li>Warning indicating that some sections didn't contain heading. Changed those section elements to div elements. Those section elements had id=outer-section2, id=pictures and id=form-section.</li>
+      <li>Type errors in some of the href link paths. Some had one '/' instead of two. For example, (http:/youtube.com instead of http://youtube.com). The typo is fixed.</li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li>CSS
+    <ul>
+      <li>No errors found when checking through the official Jigsaw validator.</li>
+    </ul>
+  </li>
+</ul>
+<ul>
+  <li>Accessibility
+    <ul>
+      <li>I confirmed that the fonts and colors are easy to read and accessible by checking it through lighthouse in devtools</li>
+    </ul>
+  </li>
+</ul>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![accessibility](https://user-images.githubusercontent.com/99958001/161406666-548a87f7-f0f9-435e-8368-4df5d8c293de.jpeg)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<h4>Unfixed Bugs</h4>
+<p>No unfixed bugs</p>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<h1>Deployment</h1>
+<ul>
+  <li>I have deployed the site to GitHub pages. The steps I made to deploy are as follows:
+    <ul>
+      <li>Navigate to Settings tab in the GitHub repository</li>
+      <li>Click on the source section and select Main Branch from the drop-down menu.</li>
+      <li>Click on Save button and after the page refreshed the link to the completed website is provided.</li>
+    </ul>
+  </li>
+</ul>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The link can be found here: <a href="https://samgoldz.github.io/reading-kids/index.html" target="_blank">Kids Reading</a>
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+<h1>Media</h1>
+<ul>
+  <li>All the images in the website were taken from <a href="https://www.pexels.com/" target="_blank">Pexels</a></li>
+</ul>
